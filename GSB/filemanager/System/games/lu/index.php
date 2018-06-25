@@ -33,6 +33,8 @@ form.submit();
 &nbsp;&nbsp;&nbsp;&nbsp;
 <input type="image" src="png/restart.png" width="100" height="100" class="btn btn-outline-primary btn-lg" onclick="location='includelu/restart.php'; Confirm(this.form); " />
 &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="png/logs.png" width="100" height="100" class="btn btn-outline-primary btn-lg" onclick="location='includelu/ServerLog.php'; Confirm(this.form); " />
+&nbsp;&nbsp;&nbsp;&nbsp;
 <input type="image" src="png/backup.png" width="100" height="100" class="btn btn-outline-warning btn-lg" onclick="location='backup.php'; backup(this.form); " />
 <br><br>
 <input type="image" src="png/reset.png" width="100" height="100" class="btn btn-outline-info btn-lg" onclick="location='extract.php';" />

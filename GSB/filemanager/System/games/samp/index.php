@@ -11,6 +11,11 @@ function Confirm(form){
 alert("Server has been started!"); 
 form.submit();
 }
+<script type="text/javascript">
+function backup(forms){
+alert("Backing up!"); 
+form.submit();
+}
 </script>
 <title>SAMP-SERVER-BOOTER</title>
 <link rel="icon" href="png/samp.png" type="image/x-icon" />
@@ -22,13 +27,23 @@ form.submit();
 <h5><font color="white">Note: Kindly remember that you are not permitted by your<br>Host to modify this panel at all</font></h5>
 <h5><font color="white">Other wise we will be sorry to remove your Host permanently</font></h5>
 <br><br>
-<input type="image" src="png/start.png" width="100" height="100" class="btn btn-outline-success btn-lg" onclick="location='includesa/server.php'; Confirm(this.form); " />
+<input type="image" src="png/start.png" width="100" height="100" class="btn btn-outline-success btn-lg" onclick="location='includelu/server.php'; Confirm(this.form); " />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<input type="image" src="png/off.png" width="100" height="100" class="btn btn-outline-danger btn-lg" onclick="location='includesa/serveroff.php'; Confirm(this.forms); " />
+<input type="image" src="png/off.png" width="100" height="100" class="btn btn-outline-danger btn-lg" onclick="location='includelu/serveroff.php'; Confirm(this.forms); " />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<input type="image" src="png/restart.png" width="100" height="100" class="btn btn-outline-primary btn-lg" onclick="location='includesa/restart.php'; Confirm(this.form); " />
+<input type="image" src="png/restart.png" width="100" height="100" class="btn btn-outline-primary btn-lg" onclick="location='includelu/restart.php'; Confirm(this.form); " />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="png/backup.png" width="100" height="100" class="btn btn-outline-warning btn-lg" onclick="location='backup.php'; backup(this.form); " />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <input type="image" src="png/logs.png" width="100" height="100" class="btn btn-outline-danger btn-lg" onclick="location='includesa/ServerLog.php';" />
+<br><br>
+<input type="image" src="png/reset.png" width="100" height="100" class="btn btn-outline-info btn-lg" onclick="location='extract.php';" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="png/delete.png" width="100" height="100" class="btn btn-outline-light btn-lg" onclick="location='delete.php';" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="png/installbackup.png" width="100" height="100" class="btn btn-outline-secondary btn-lg" onclick="location='installbackup.php';" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="png/deletebackup.png" width="100" height="100" class="btn btn-outline-dark btn-lg" onclick="location='deletebackup.php';" />
 <br><br>
 <footer>
 <h5><font color="white">Copyright © WebNet Official-Hosting. All Rights Reserved</font></h5>

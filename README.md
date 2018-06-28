@@ -3,7 +3,7 @@ For game and website hosting, A simple Game-Panel<br>
 Contains Cpanel / Ucp /Ftp
 
 # Working
-Requires any of these xammp, wammp, mamp, wnmp to run<br>
+Requires any of these xammp, wammp, mamp, wamp to run<br>
 or use any of these <a href="https://merabheja.com/alternatives-of-xampp-server/">Appache</a>
 
 # Method

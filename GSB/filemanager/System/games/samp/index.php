@@ -27,6 +27,35 @@ form.submit();
 <h5><font color="white">Note: Kindly remember that you are not permitted by your<br>Host to modify this panel at all</font></h5>
 <h5><font color="white">Other wise we will be sorry to remove your Host permanently</font></h5>
 <br><br>
+<table align="left">
+  <tr>
+    <td><input type="image" src="png/start.png" width="10" height="10"><font color="white"> Start Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/off.png" width="10" height="10"><font color="white"> Stop Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/restart.png" width="10" height="10"><font color="white"> Restart Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/backup.png" width="10" height="10"><font color="white"> Backup Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/logs.png" width="10" height="10"><font color="white"> Server Log</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/reset.png" width="10" height="10"><font color="white"> Install blank Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/delete.png" width="10" height="10"><font color="white"> Delete Server</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/installbackup.png" width="10" height="10"><font color="white"> Install Server from backup</td>
+  </tr>
+  <tr>
+  <td><input type="image" src="png/deletebackup.png" width="10" height="10"><font color="white"> Delete Server Backup</td>
+  </tr>
+</table>
 <input type="image" src="png/start.png" width="100" height="100" class="btn btn-outline-success btn-lg" onclick="location='includelu/server.php'; Confirm(this.form); " />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <input type="image" src="png/off.png" width="100" height="100" class="btn btn-outline-danger btn-lg" onclick="location='includelu/serveroff.php'; Confirm(this.forms); " />

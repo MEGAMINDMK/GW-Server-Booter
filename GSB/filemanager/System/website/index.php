@@ -64,7 +64,7 @@ form.submit();
 <input type="image" src="png/deletebackup.png" width="100" height="100" class="btn btn-outline-dark btn-lg" onclick="location='deletebackup.php';" />
 <br><br>
 <footer>
-<h5><font color="white">Copyright © WebNet Official-Hosting. All Rights Reserved</font></h5>
+<h5><font color="white">Copyright Â© WebNet Official-Hosting. All Rights Reserved</font></h5>
 <h5><font color="white">Design by WebNet Official.com</font></h5>
 </footer>
 </center>

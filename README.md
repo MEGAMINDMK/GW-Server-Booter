@@ -4,7 +4,7 @@
 </p>
 
 # Game-Server-Booter
-For game and website hosting, A simple Game-Panel<br>
+For game and website hosting, A simple Panel<br>
 Contains Cpanel / Ucp /Ftp
 
 # Working

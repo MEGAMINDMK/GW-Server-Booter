@@ -3,7 +3,7 @@
  
 </p>
 
-# Game-Server-Booter
+# GW-Server-Booter
 For game and website hosting, A simple Panel<br>
 Contains Cpanel / Ucp /Ftp
 
@@ -12,7 +12,7 @@ Requires any of these xammp, wamp, mamp, lamp to run<br>
 or use any of these <a href="https://merabheja.com/alternatives-of-xampp-server/">Appache</a>
 
 # Method
-1. Open GSB
+1. Open GWSB
 2. Open index.php with notepad++
 3. Scroll down to line 24 - 25
 4. Edit the password using md5 generator
